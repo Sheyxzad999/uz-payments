@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f1d2e"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c3e6"/>
+      <stop offset="1" stop-color="#3ddc6f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#1eb53a" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#1eb53a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33cccc"/>
+      <stop offset="1" stop-color="#0a8f9e"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f80ed"/>
+      <stop offset="1" stop-color="#1b4fb8"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="400" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="url(#bg)"/>
+    <rect width="1280" height="400" fill="url(#dots)"/>
+    <rect width="1280" height="400" fill="url(#glow)"/>
+    <rect x="0" y="388" width="1280" height="4" fill="#0099b5"/>
+    <rect x="0" y="392" width="1280" height="1.5" fill="#ce1126"/>
+    <rect x="0" y="393.5" width="1280" height="6.5" fill="#1eb53a"/>
+  </g>
+
+  <g font-family="'SF Pro Display','Segoe UI',Inter,Helvetica,Arial,sans-serif">
+    <g transform="translate(80,92)">
+      <circle cx="14" cy="14" r="14" fill="#1eb53a"/>
+      <path d="M8 14.5 l4 4 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="40" y="20" font-size="18" fill="#8aa4bf" letter-spacing="3" font-weight="600">PAYME · CLICK · NODE.JS</text>
+    </g>
+    <text x="76" y="212" font-size="104" font-weight="800" fill="url(#title)" letter-spacing="-4">uz-payments</text>
+    <text x="82" y="266" font-size="28" fill="#e6edf3" font-weight="500">Toʻlov tizimlarini 5 daqiqada ulang</text>
+    <text x="82" y="308" font-size="20" fill="#8aa4bf">Merchant API · imzo tekshiruvi · takroriy soʻrovlar · TypeScript</text>
+  </g>
+
+  <!-- karta tasvirlari -->
+  <g transform="translate(870,70) rotate(-8 150 90)">
+    <rect width="300" height="180" rx="18" fill="url(#card2)"/>
+    <rect x="24" y="30" width="44" height="32" rx="6" fill="#ffd66b" fill-opacity="0.9"/>
+    <text x="24" y="150" font-family="'SF Mono',Menlo,monospace" font-size="18" fill="#fff" fill-opacity="0.85" letter-spacing="2">8600 •••• 1234</text>
+    <text x="276" y="52" text-anchor="end" font-family="'SF Pro Display',Helvetica,Arial,sans-serif" font-weight="800" font-size="26" fill="#fff">click</text>
+  </g>
+  <g transform="translate(820,150) rotate(4 150 90)">
+    <rect width="300" height="180" rx="18" fill="url(#card1)"/>
+    <rect x="24" y="30" width="44" height="32" rx="6" fill="#ffd66b" fill-opacity="0.9"/>
+    <text x="24" y="150" font-family="'SF Mono',Menlo,monospace" font-size="18" fill="#fff" fill-opacity="0.9" letter-spacing="2">9860 •••• 5678</text>
+    <text x="276" y="52" text-anchor="end" font-family="'SF Pro Display',Helvetica,Arial,sans-serif" font-weight="800" font-size="26" fill="#fff">payme</text>
+    <g transform="translate(236,108)">
+      <circle cx="20" cy="20" r="20" fill="#fff"/>
+      <path d="M11 20.5 l6 6 l12 -13" stroke="#1eb53a" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

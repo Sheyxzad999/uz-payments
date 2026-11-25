@@ -1,0 +1,26 @@
+{
+  "name": "uz-payments",
+  "version": "0.1.0",
+  "description": "Payme va Click toʻlov tizimlarini Node.js loyihaga tez ulash. Zero dependency, TypeScript tiplari bilan.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src"],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["payme", "paycom", "click", "click-uz", "uzbekistan", "payment", "payment-gateway", "merchant-api", "uzcard", "humo", "nodejs", "express", "nextjs"],
+  "author": "Shaxzod (https://sheyxzad.uz)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Sheyxzad999/uz-payments.git" },
+  "homepage": "https://github.com/Sheyxzad999/uz-payments#readme",
+  "bugs": "https://github.com/Sheyxzad999/uz-payments/issues"
+}
